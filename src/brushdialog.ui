@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>BrushDialog</class>
+ <widget class="QDialog" name="BrushDialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>260</width>
+    <height>70</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>260</width>
+    <height>70</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>260</width>
+    <height>70</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <widget class="QPushButton" name="pushButton_color">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>30</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>Изменить цвет</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_ok">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>40</y>
+     <width>91</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>OK</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox_style">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>91</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>91</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>91</width>
+     <height>22</height>
+    </size>
+   </property>
+   <property name="currentIndex">
+    <number>1</number>
+   </property>
+   <item>
+    <property name="text">
+     <string>Без заливки</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Сплошная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Горизонтальная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Вертикальная</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>Перекрёстная</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QLabel" name="label_style">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;Тип заливки:&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
